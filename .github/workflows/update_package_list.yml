@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: linux
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
